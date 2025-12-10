@@ -5,88 +5,99 @@ The Online Store Management System is a Python-based application designed to man
 It uses PostgreSQL as the backend database and Python (Tkinter/CLI) as the interface to interact with the user.
 The system helps stores maintain records, track customers, generate orders, and manage inventory efficiently.
 
+
 📌 Features
 
-Add, update, delete, and view products
+•Add, update, delete, and view products
 
-Manage customers
+•Manage customers
 
-Create and view customer orders
+•Create and view customer orders
 
-Track order status
+•Track order status
 
-Store all data securely in PostgreSQL
+•Store all data securely in PostgreSQL
 
-Simple Python-based GUI or command-line interface
+•Simple Python-based GUI or command-line interface
 
-Extensible and easy for beginners to understand
+•Extensible and easy for beginners to understand
+
 
 📌 Technologies Used
 1. Python
 
-Used to build the main program logic
+•Used to build the main program logic
 
-Connects to PostgreSQL using psycopg2
+•Connects to PostgreSQL using psycopg2
 
-Used for GUI (Tkinter / CustomTkinter)
+•Used for GUI (Tkinter / CustomTkinter)
+
 
 2. PostgreSQL
 
-Stores all data such as products, customers, and orders
+•Stores all data such as products, customers, and orders
 
-Provides fast and secure queries
+•Provides fast and secure queries
 
-Uses tables and relationships to manage data
+•Uses tables and relationships to manage data
+
 
 3. SQL
 
-Used to create tables
+•Used to create tables
 
-Insert, update, delete data
+•Insert, update, delete data
 
-Fetch reports
+•Fetch reports
+
 
 📌 Tools / Libraries
 
-psycopg2 – for PostgreSQL connection
+•psycopg2 – for PostgreSQL connection
 
-Pillow (PIL) – optional, for images
+•Pillow (PIL) – optional, for images
 
-CustomTkinter – optional GUI
+•CustomTkinter – optional GUI
 
-Tkinter – for UI
+•Tkinter – for UI
 
-Python 3.10+
+•Python 3.10+
+
 
 📌 How to Run the Project
 1. Install Required Python Packages
 pip install -r requirements.txt
 
+
 2. Create PostgreSQL Database
 
-Open pgAdmin or terminal
+i) Open pgAdmin or terminal
 
-Create a database (example: online_store_db)
+ii) Create a database (example: online_store_db)
 
-Run the SQL file:
+iii) Run the SQL file:
 
-psql -U postgres -d online_store_db -f sql/create_tables.sql
+iv) psql -U postgres -d online_store_db -f sql/create_tables.sql
+
 
 3. Update Database Credentials in database.py
 
 (Replace with your actual username, password, db name.)
 
+
 4. Run the Application
 python app.py
 
+
 📌 Database Tables
 
-products → product details
+•products → product details
 
-customers → customer info
+•customers → customer info
 
-orders → order records
+•orders → order records
 
-order_items (optional) → items in each order
+•order_items (optional) → items in each order
+
 
 📌 Screenshot
