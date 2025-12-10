@@ -101,3 +101,6 @@ python app.py
 
 
 📌 Screenshot
+![Dashboard Screenshot](./Output/Login.png)
+![Dashboard Screenshot](./Output/Order%20table.png)
+![Dashboard Screenshot](./Output/Product%20Table.png)
